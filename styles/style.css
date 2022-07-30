@@ -1,0 +1,38 @@
+.block_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+    width: 100%;
+}
+
+body {
+    width: 100vw;
+}
+
+span {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 42%;
+    font-size: 180%;
+}
+
+img {
+    filter: brightness(30%);
+}
+
+img:hover {
+    filter: brightness(100%);
+}
+
+.menu:hover {
+    color: wheat;
+    font-weight: 800;
+}

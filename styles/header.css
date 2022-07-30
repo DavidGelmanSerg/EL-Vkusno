@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    background: url('../Images/rest.jpg') center center no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: "Chivo";
+    font-weight: 400;
+    src: url(../fonts/Chivo/Chivo-Light.ttf);
+}
+
+header {
+    font-family: "Cheque";
+    text-align: center;
+    font-size: 200%;
+    background-color: #a52a2a;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background: rgb(204, 29, 29);
+    background: radial-gradient(circle, rgba(139, 33, 33, 1) 56%, rgba(0, 0, 0, 1) 100%);
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom: 3px solid #a52a2a;
+    text-shadow: 1px 1px 0px white;
+}
+
+a {
+    text-decoration: none;
+    font-family: serif;
+    font-weight: 600;
+    color: inherit;
+    font-size: 180%;
+    position: relative;
+    text-shadow: 1px 1px 0px white;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer {
+    width: 91%;
+    height: 10vh;
+    background-color: black;
+    margin-left: 5%;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 3%;
+    background-color: rgb(10, 10, 10);
+}
+
+
+.sc {
+    font-size: 70%;
+}
+
+.shop_cart {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: "Cheque";
+}
+
+.navi_link:hover {
+    border-bottom: 5px solid #a52a2a;
+}

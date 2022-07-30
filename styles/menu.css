@@ -1,0 +1,44 @@
+.dishes_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 180%;
+    position: relative;
+    width: 100vw;
+}
+
+.links {
+    width: 20%;
+    height: 70.5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 1px;
+}
+
+.links:hover {
+    color: wheat;
+}
+
+.pictures {
+    height: 70.5vh;
+    filter: brightness(30%);
+    width: 100%;
+}
+
+.pictures:hover {
+    filter: brightness(100%);
+}
+
+.text {
+    position: absolute;
+    font-size: 90%;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
